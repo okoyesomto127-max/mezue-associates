@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prop-001",
+    "title": "Prime Commercial Office Complex",
+    "purpose": "For Sale",
+    "type": "Commercial",
+    "location": "Independence Layout, Enugu",
+    "price": "₦ 450,000,000",
+    "priceNumeric": 450000000,
+    "size": "2,400 sq m Built Area",
+    "description": "Multi-storey commercial corporate building with modern executive suites, dedicated transformer, ample parking bay for 50 vehicles, and prime arterial road frontage in Independence Layout.",
+    "features": [
+      "2,400 sq m lettable floor space",
+      "500kVA dedicated transformer",
+      "C of O (Certificate of Occupancy)",
+      "High-speed fiber connectivity infrastructure",
+      "24/7 security gatehouse and perimeter walling"
+    ],
+    "image": "assets/images/prop-commercial-enugu.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  },
+  {
+    "id": "prop-002",
+    "title": "Contemporary 5-Bedroom Detached Duplex",
+    "purpose": "For Sale",
+    "type": "Residential",
+    "location": "Maitama District, Abuja",
+    "price": "₦ 680,000,000",
+    "priceNumeric": 680000000,
+    "size": "1,100 sq m Land Area",
+    "description": "Exquisitely finished luxury detached residence featuring all en-suite bedrooms, private swimming pool, two-room staff quarters, and manicured landscaped grounds in premier diplomatic zone.",
+    "features": [
+      "5 en-suite bedrooms with walk-in closets",
+      "2 fully equipped staff quarters",
+      "Private swimming pool and gazebo terrace",
+      "Automated access gate and CCTV cabling",
+      "FCDA statutory title clearance"
+    ],
+    "image": "assets/images/prop-residential-abuja.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  },
+  {
+    "id": "prop-003",
+    "title": "Prime Commercial Trading Plaza",
+    "purpose": "For Rent",
+    "type": "Commercial",
+    "location": "New Market Road Corridor, Onitsha",
+    "price": "₦ 24,000,000 / annum",
+    "priceNumeric": 24000000,
+    "size": "850 sq m Open Plan",
+    "description": "Strategic multi-bay commercial showroom and warehousing facility located along high-traffic commercial arterial corridor in Onitsha, ideal for banking, wholesale, or corporate branch logistics.",
+    "features": [
+      "Open-plan modular layout adaptable for corporate banking or retail",
+      "Dedicated loading dock and heavy vehicle access",
+      "Reinforced industrial concrete slab flooring",
+      "Borehole with industrial filtration system",
+      "Verified commercial title"
+    ],
+    "image": "assets/images/prop-commercial-onitsha.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  },
+  {
+    "id": "prop-004",
+    "title": "Strategic Industrial Development Land",
+    "purpose": "For Sale",
+    "type": "Land",
+    "location": "Trans-Amadi Industrial Zone, Port Harcourt",
+    "price": "₦ 320,000,000",
+    "priceNumeric": 320000000,
+    "size": "4.5 Hectares (Fenced)",
+    "description": "Firm, level industrial land parcel strategically situated within established manufacturing and heavy equipment logistics hub with direct heavy-duty road access.",
+    "features": [
+      "4.5 hectares firm dry topography",
+      "Fully perimeter fenced with gated security access",
+      "Direct heavy truck access to dual carriage expressway",
+      "High-voltage industrial grid connection adjacency",
+      "Registered Deed of Assignment & Governor's Consent"
+    ],
+    "image": "assets/images/prop-land-ph.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  },
+  {
+    "id": "prop-005",
+    "title": "Executive 4-Bedroom Serviced Terrace",
+    "purpose": "For Rent",
+    "type": "Residential",
+    "location": "Old GRA, Enugu",
+    "price": "₦ 8,500,000 / annum",
+    "priceNumeric": 8500000,
+    "size": "450 sq m Built Area",
+    "description": "Well-appointed residential terrace home in quiet, secure Old GRA enclave featuring fitted Italian kitchen, continuous facility power, and 24-hour guarded security.",
+    "features": [
+      "4 spacious en-suite bedrooms",
+      "Integrated solar backup inverter system",
+      "Uniformed security and automated gate access",
+      "Dedicated 1-room domestic quarters",
+      "Corporate tenancy preferred"
+    ],
+    "image": "assets/images/prop-residential-enugu.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  },
+  {
+    "id": "prop-006",
+    "title": "Prime Mixed-Use Waterfront Development Parcel",
+    "purpose": "For Sale",
+    "type": "Land",
+    "location": "Lekki Phase 1 Corridor, Lagos",
+    "price": "₦ 550,000,000",
+    "priceNumeric": 550000000,
+    "size": "2,150 sq m",
+    "description": "Exceptional mixed-use commercial/residential development parcel with prime road frontage and water orientation, ideal for boutique luxury apartments or regional corporate headquarters.",
+    "features": [
+      "2,150 sq m cleared and sandfilled parcel",
+      "Direct dual-carriage access with high commercial visibility",
+      "Federal / Lagos State Certificate of Occupancy",
+      "Topographical survey and soil investigation preliminary data ready",
+      "Immediate possession upon completion"
+    ],
+    "image": "assets/images/prop-land-lagos.svg",
+    "status": "Demonstration Preview",
+    "isPreview": true
+  }
+]

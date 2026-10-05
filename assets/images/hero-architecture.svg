@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06120b"/>
+      <stop offset="40%" stop-color="#0b2015"/>
+      <stop offset="85%" stop-color="#123321"/>
+      <stop offset="100%" stop-color="#18422c"/>
+    </linearGradient>
+
+    <linearGradient id="glassGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#235338" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#163725" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0c2217" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="glassGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#306b49" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#1f4831" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#112d1e" stop-opacity="0.97"/>
+    </linearGradient>
+
+    <linearGradient id="greenBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5b9370" stop-opacity="0.0"/>
+      <stop offset="50%" stop-color="#5b9370" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b694d" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="greenAcc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93c5a8"/>
+      <stop offset="100%" stop-color="#528c68"/>
+    </linearGradient>
+
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="rgba(116, 174, 140, 0.08)" stroke-width="0.8"/>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="rgba(116, 174, 140, 0.08)" stroke-width="0.8"/>
+    </pattern>
+
+    <pattern id="windowGrid1" width="16" height="24" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="12" height="20" rx="1" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(147, 197, 168, 0.25)" stroke-width="0.5"/>
+    </pattern>
+
+    <pattern id="windowGrid2" width="20" height="28" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="16" height="24" rx="1" fill="rgba(255, 255, 255, 0.12)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="0.5"/>
+    </pattern>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#040d07" stop-opacity="0.88"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Green Sky & Atmosphere -->
+  <rect width="1600" height="900" fill="url(#skyGrad)"/>
+  <rect width="1600" height="900" fill="url(#archGrid)"/>
+
+  <!-- Perspective Horizon & Cadastral Lines -->
+  <line x1="0" y1="560" x2="1600" y2="560" stroke="rgba(147, 197, 168, 0.25)" stroke-width="1.2"/>
+  <line x1="0" y1="565" x2="1600" y2="565" stroke="rgba(147, 197, 168, 0.1)" stroke-width="0.8"/>
+  <line x1="150" y1="900" x2="680" y2="560" stroke="rgba(147, 197, 168, 0.18)" stroke-width="1"/>
+  <line x1="1450" y1="900" x2="920" y2="560" stroke="rgba(147, 197, 168, 0.18)" stroke-width="1"/>
+
+  <!-- Ambient Light Halo -->
+  <circle cx="800" cy="460" r="380" fill="url(#greenBeam)" opacity="0.4"/>
+
+  <!-- Distant Skyline Towers -->
+  <g opacity="0.45">
+    <rect x="240" y="280" width="130" height="340" fill="#0e2619" stroke="rgba(147, 197, 168, 0.2)" stroke-width="1"/>
+    <rect x="390" y="240" width="150" height="380" fill="#122f1f" stroke="rgba(147, 197, 168, 0.2)" stroke-width="1"/>
+    <rect x="1080" y="220" width="140" height="400" fill="#112c1e" stroke="rgba(147, 197, 168, 0.2)" stroke-width="1"/>
+    <rect x="1240" y="290" width="120" height="330" fill="#0d2417" stroke="rgba(147, 197, 168, 0.2)" stroke-width="1"/>
+  </g>
+
+  <!-- Midground Architecture -->
+  <g id="midground-towers">
+    <!-- Left Mid Tower -->
+    <path d="M 480 180 L 610 150 L 610 680 L 480 680 Z" fill="url(#glassGrad1)" stroke="rgba(147, 197, 168, 0.35)" stroke-width="1.5"/>
+    <rect x="492" y="195" width="106" height="470" fill="url(#windowGrid1)"/>
+    <line x1="610" y1="150" x2="610" y2="680" stroke="url(#greenAcc)" stroke-width="2"/>
+
+    <!-- Right Mid Tower -->
+    <path d="M 990 140 L 1120 180 L 1120 680 L 990 680 Z" fill="url(#glassGrad1)" stroke="rgba(147, 197, 168, 0.35)" stroke-width="1.5"/>
+    <rect x="1002" y="190" width="106" height="475" fill="url(#windowGrid1)"/>
+    <line x1="990" y1="140" x2="990" y2="680" stroke="url(#greenAcc)" stroke-width="2"/>
+  </g>
+
+  <!-- Foreground Corporate Architecture -->
+  <g id="foreground-architecture">
+    <!-- Center-Left Tower -->
+    <path d="M 590 110 L 780 70 L 780 720 L 590 720 Z" fill="url(#glassGrad2)" stroke="rgba(147, 197, 168, 0.5)" stroke-width="2"/>
+    <rect x="606" y="125" width="160" height="580" fill="url(#windowGrid2)"/>
+    
+    <!-- Vertical Green Architectural Spine -->
+    <line x1="780" y1="70" x2="780" y2="720" stroke="url(#greenAcc)" stroke-width="3"/>
+    
+    <!-- Spire / Beacon -->
+    <line x1="780" y1="70" x2="780" y2="20" stroke="url(#greenAcc)" stroke-width="2"/>
+    <circle cx="780" cy="18" r="3.5" fill="#ffffff"/>
+    <circle cx="780" cy="18" r="7" fill="none" stroke="#93c5a8" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- Center-Right Tower -->
+    <path d="M 780 70 L 970 120 L 970 720 L 780 720 Z" fill="#143323" stroke="rgba(147, 197, 168, 0.4)" stroke-width="2"/>
+    <rect x="794" y="135" width="162" height="570" fill="url(#windowGrid1)"/>
+    
+    <!-- Horizontal Balconies -->
+    <line x1="585" y1="260" x2="785" y2="225" stroke="url(#greenAcc)" stroke-width="2.5"/>
+    <line x1="585" y1="420" x2="785" y2="385" stroke="url(#greenAcc)" stroke-width="2.5"/>
+    <line x1="775" y1="225" x2="975" y2="270" stroke="url(#greenAcc)" stroke-width="2.5"/>
+    <line x1="775" y1="385" x2="975" y2="430" stroke="url(#greenAcc)" stroke-width="2.5"/>
+  </g>
+
+  <!-- Ground Plaza Architecture -->
+  <rect x="360" y="680" width="880" height="90" fill="#08170f" stroke="rgba(147, 197, 168, 0.4)" stroke-width="1.5"/>
+  <line x1="360" y1="700" x2="1240" y2="700" stroke="rgba(147, 197, 168, 0.25)" stroke-width="1"/>
+
+  <!-- Surveyor Reticle Motif -->
+  <g transform="translate(1320, 160)" opacity="0.3">
+    <circle cx="90" cy="90" r="80" fill="none" stroke="#93c5a8" stroke-width="1.2"/>
+    <circle cx="90" cy="90" r="50" fill="none" stroke="#93c5a8" stroke-width="0.8" stroke-dasharray="4,3"/>
+    <circle cx="90" cy="90" r="6" fill="#93c5a8"/>
+    <line x1="0" y1="90" x2="180" y2="90" stroke="#93c5a8" stroke-width="1"/>
+    <line x1="90" y1="0" x2="90" y2="180" stroke="#93c5a8" stroke-width="1"/>
+  </g>
+
+  <!-- Base Ground Shading & Border -->
+  <rect x="0" y="700" width="1600" height="200" fill="url(#skyGrad)" opacity="0.95"/>
+  <line x1="0" y1="720" x2="1600" y2="720" stroke="rgba(147, 197, 168, 0.4)" stroke-width="1.5"/>
+
+  <!-- Vignette -->
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Mezue Associates — Estate Surveyors &amp; Valuers</title>
+  <meta name="description" content="Contact Mezue Associates, Estate Surveyors &amp; Valuers at 9 Ogui Road, Enugu, Nigeria. Submit enquiries for statutory valuation, property management, agency and feasibility appraisal.">
+  <link rel="icon" type="image/jpeg" href="assets/brand/official-logo.jpg">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Leaflet CSS for Interactive Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <style>
+    #enuguMap {
+      width: 100%;
+      height: 420px;
+      border-radius: var(--radius-md);
+      z-index: 10;
+      border: 1px solid var(--color-border-subtle);
+      box-shadow: var(--shadow-sm);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Strip -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__meta">
+        <span class="top-bar__badge">ESTABLISHED 1981</span>
+        <div class="top-bar__item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Head Office: 9 Ogui Road, Enugu, Nigeria</span>
+        </div>
+      </div>
+      <div class="top-bar__meta">
+        <div class="top-bar__item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span>Firm of Estate Surveyors &amp; Valuers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="mainNavbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand" aria-label="Mezue Associates Homepage">
+        <div class="brand-logo-frame">
+          <img src="assets/brand/official-logo.jpg" alt="Mezue Associates Official Logo" class="navbar__logo-img">
+        </div>
+        <div class="brand-text-lockup">
+          <span class="brand-name-title">MEZUE ASSOCIATES</span>
+          <span class="brand-designation-sub">ESTATE SURVEYORS &amp; VALUERS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="primaryNav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="properties.html" class="nav-link">Properties</a>
+        <a href="offices.html" class="nav-link">Our Offices</a>
+        <a href="leadership.html" class="nav-link">Leadership</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="btn btn--primary btn--sm js-open-consultation">
+          Request a Consultation
+        </button>
+        <button class="nav-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="section section--mint" style="padding-top: 4.5rem; padding-bottom: 4.5rem;">
+    <div class="container">
+      <span class="eyebrow">Practice Inquiry Desk</span>
+      <h1 style="color: var(--color-text-main); margin-bottom: 1rem;">Let's Discuss Your Property Needs</h1>
+      <p style="font-size: 1.15rem; color: var(--color-text-body); max-width: 760px; line-height: 1.8;">
+        Get in touch with our principal consultants and valuation surveyors for statutory appraisals, property management mandates, or institutional real estate advice.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Left Column: Pure White Contact Info Panel -->
+        <div class="contact-info-panel">
+          <span class="eyebrow">Verified Head Office</span>
+          <h3>Mezue Associates</h3>
+          <p>
+            Established in 1981 as a recognized firm of Estate Surveyors &amp; Valuers. Our head office coordinates client instructions and statutory mandates across Nigeria.
+          </p>
+
+          <div class="contact-info-list">
+            <!-- Address -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Head Office Address</strong>
+                <span>9 Ogui Road, Enugu, Enugu State, Nigeria</span>
+              </div>
+            </div>
+
+            <!-- Professional Cadre -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Professional Cadre</strong>
+                <span>Estate Surveyors &amp; Valuers</span>
+              </div>
+            </div>
+
+            <!-- Founding -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Founding Year</strong>
+                <span>1981 &mdash; Over 4 Decades of Experience</span>
+              </div>
+            </div>
+
+            <!-- Branch Network -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Key Operating Locations</strong>
+                <span>Enugu (HQ), Onitsha, Abuja, Lagos, Aba, Abakaliki, Port Harcourt, Maiduguri</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: auto; padding-top: 1.5rem; border-top: 1px solid var(--color-border-subtle); font-size: 0.84rem; color: var(--color-text-muted);">
+            <strong style="color: var(--color-primary-dark);">Practice Note:</strong> Only verified physical branch locations and registered personnel are listed on this website in compliance with professional standards.
+          </div>
+        </div>
+
+        <!-- Right Column: Soft Mint Tint (#F0FDF4) Form Card -->
+        <div class="form-card">
+          <span class="eyebrow">Client Enquiry Form</span>
+          <h2 style="font-size: 1.6rem; color: var(--color-text-main); margin-bottom: 0.75rem;">Submit Your Property Mandate</h2>
+          <p style="font-size: 0.95rem; color: var(--color-text-body); margin-bottom: 2rem;">
+            Please complete the details below. Our consultancy team will review your specifications and respond promptly.
+          </p>
+
+          <div class="alert-feedback alert-feedback--success"></div>
+
+          <form class="js-validate-form" novalidate id="propertyContactForm">
+            <div class="form-grid">
+              <!-- Full Name -->
+              <div class="form-group">
+                <label class="form-label" for="contactFullName">Full Name *</label>
+                <input type="text" id="contactFullName" name="fullName" class="form-control" placeholder="e.g. Chief / Engr. / Dr. / Mr. / Mrs." required>
+                <span class="form-error">Please enter your full name.</span>
+              </div>
+
+              <!-- Email Address -->
+              <div class="form-group">
+                <label class="form-label" for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+                <span class="form-error">Please provide a valid email address.</span>
+              </div>
+
+              <!-- Phone Number -->
+              <div class="form-group">
+                <label class="form-label" for="contactPhone">Phone Number *</label>
+                <input type="tel" id="contactPhone" name="phone" class="form-control" placeholder="e.g. +234 803 ..." required>
+                <span class="form-error">Please provide a valid telephone number.</span>
+              </div>
+
+              <!-- Service Required -->
+              <div class="form-group">
+                <label class="form-label" for="contactService">Service Required *</label>
+                <select id="contactService" name="service" class="form-control" required>
+                  <option value="">Select Service...</option>
+                  <option value="Property Valuation">Property Valuation</option>
+                  <option value="Property Management">Property Management</option>
+                  <option value="Estate Agency">Estate Agency</option>
+                  <option value="Facility Management">Facility Management</option>
+                  <option value="Project Management">Project Management</option>
+                  <option value="Feasibility & Viability Appraisal">Feasibility &amp; Viability Appraisal</option>
+                  <option value="Real Estate Consultancy">Real Estate Consultancy</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="form-error">Please choose a required service.</span>
+              </div>
+
+              <!-- Location -->
+              <div class="form-group form-group--full">
+                <label class="form-label" for="contactLocation">Location *</label>
+                <input type="text" id="contactLocation" name="location" class="form-control" placeholder="e.g. Enugu, Onitsha, Abuja, Lagos, Port Harcourt, etc." required>
+                <span class="form-error">Please specify the location of the property or project.</span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group form-group--full">
+                <label class="form-label" for="contactMessage">Message *</label>
+                <textarea id="contactMessage" name="message" class="form-control" rows="5" placeholder="Detail your property valuation scope, property management mandate, or consulting enquiry..." required></textarea>
+                <span class="form-error">Please enter your message (minimum 6 characters).</span>
+              </div>
+            </div>
+
+            <!-- Send Enquiry Button: Left-Aligned with inputs -->
+            <div class="form-action-left">
+              <button type="submit" class="btn btn--primary">
+                Send Enquiry
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Head Office Map Section -->
+  <section class="section section--mint" style="border-top: 1px solid var(--color-border-mint);">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Head Office Location</span>
+        <h2>Enugu Headquarters Map</h2>
+        <p>
+          Located along Ogui Road, a primary commercial arterial road in Enugu, Nigeria.
+        </p>
+      </div>
+
+      <!-- Map Container -->
+      <div id="enuguMap"></div>
+
+      <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.92rem; color: var(--color-text-body);">
+        <div>
+          <strong style="color: var(--color-text-main);">Location:</strong> 9 Ogui Road, Enugu, Enugu State, Nigeria
+        </div>
+        <div style="font-size: 0.84rem; color: var(--color-primary-dark); font-weight: 700;">
+          Coordinates: 6.4413° N, 7.5029° E &bull; Ogui Commercial Corridor
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand__frame">
+            <img src="assets/brand/official-logo.jpg" alt="Mezue Associates Official Logo" class="footer-brand__logo">
+          </div>
+          <p class="footer-brand__tagline">
+            Firm of Estate Surveyors &amp; Valuers providing professional property valuation, management, agency, and feasibility consultancy across Nigeria since 1981.
+          </p>
+          <p style="font-size:0.82rem; color:var(--color-primary-dark); font-weight:700;">ESTABLISHED 1981 &bull; PRACTICE EXCELLENCE</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="offices.html">Our Offices</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#property-valuation">Valuation</a></li>
+            <li><a href="services.html#property-management">Property Management</a></li>
+            <li><a href="services.html#estate-agency">Estate Agency</a></li>
+            <li><a href="services.html#facility-management">Facility Management</a></li>
+            <li><a href="services.html#project-management">Project Management</a></li>
+            <li><a href="services.html#real-estate-consultancy">Consultancy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Head Office</h4>
+          <p class="footer-office-address">
+            <strong>Mezue Associates</strong><br>
+            9 Ogui Road, Enugu,<br>
+            Enugu State, Nigeria
+          </p>
+          <button class="btn btn--outline-green btn--sm js-open-consultation">
+            Book Consultation
+          </button>
+        </div>
+      </div>
+
+      <!-- Regulatory Notice Box -->
+      <div class="footer-regulatory-box">
+        <p class="footer-regulatory-text">
+          <strong>Regulatory Notice:</strong> Mezue Associates is registered for the practice of Estate Surveying and Valuation across Nigeria by the Estate Surveyors &amp; Valuers Registration Board of Nigeria (established by Act No. 24 of 1975, Cap E13 LFN, 2007). Originally registered under the Registration of Business Names Act in 1981.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mezue Associates. All Rights Reserved.</p>
+        <p style="color: var(--color-text-muted); font-size: 0.86rem;">
+          Estate Surveyors &amp; Valuers &bull; Founded 1981 &bull; 9 Ogui Road, Enugu, Nigeria
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reusable Consultation Modal -->
+  <div class="modal-backdrop" id="consultationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span style="font-size:0.75rem; color:var(--color-primary-dark); text-transform:uppercase; letter-spacing:0.1em; font-weight:700;">Mezue Associates Practice Desk</span>
+          <h3 id="modalTitle">Request a Professional Consultation</h3>
+        </div>
+        <button class="modal-close" aria-label="Close modal dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="alert-feedback alert-feedback--success"></div>
+
+        <form class="js-validate-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="modalName">Full Name *</label>
+              <input type="text" id="modalName" name="fullName" class="form-control" placeholder="Full name" required>
+              <span class="form-error">Please enter your full name.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalEmail">Email Address *</label>
+              <input type="email" id="modalEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+              <span class="form-error">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalPhone">Phone Number *</label>
+              <input type="tel" id="modalPhone" name="phone" class="form-control" placeholder="Phone number" required>
+              <span class="form-error">Please enter a valid telephone number.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalService">Service Required *</label>
+              <select id="modalService" name="service" class="form-control" required>
+                <option value="">Select Service...</option>
+                <option value="Property Valuation">Property Valuation</option>
+                <option value="Property Management">Property Management</option>
+                <option value="Estate Agency">Estate Agency</option>
+                <option value="Facility Management">Facility Management</option>
+                <option value="Project Management">Project Management</option>
+                <option value="Feasibility & Viability Appraisal">Feasibility &amp; Viability Appraisal</option>
+                <option value="Real Estate Consultancy" selected>Real Estate Consultancy</option>
+                <option value="Property Rights Consultancy">Property Rights Consultancy</option>
+                <option value="Other">Other</option>
+              </select>
+              <span class="form-error">Please select a service area.</span>
+            </div>
+
+            <div class="form-group form-group--full">
+              <label class="form-label" for="modalLocation">Property / Project Location *</label>
+              <input type="text" id="modalLocation" name="location" class="form-control" placeholder="e.g. Enugu, Onitsha, Abuja, Lagos, etc." required>
+              <span class="form-error">Please specify location.</span>
+            </div>
+
+            <div class="form-group form-group--full">
+              <label class="form-label" for="modalMessage">Scope &amp; Message *</label>
+              <textarea id="modalMessage" name="message" class="form-control" rows="4" placeholder="Briefly describe your requirements..." required></textarea>
+              <span class="form-error">Please provide a brief description (min 6 characters).</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end; gap: 1rem;">
+            <button type="button" class="btn btn--outline-green btn--sm js-modal-close">Cancel</button>
+            <button type="submit" class="btn btn--primary btn--sm">Send Enquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS Script -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mapEl = document.getElementById('enuguMap');
+      if (!mapEl) return;
+
+      const enuguCoords = [6.4413, 7.5029];
+
+      try {
+        if (typeof L !== 'undefined') {
+          const map = L.map('enuguMap', {
+            scrollWheelZoom: false
+          }).setView(enuguCoords, 15);
+
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+          }).addTo(map);
+
+          const marker = L.marker(enuguCoords).addTo(map);
+          marker.bindPopup(`
+            <div style="font-family:'Plus Jakarta Sans',sans-serif; padding:4px;">
+              <strong style="color:#0F172A; font-size:13px; display:block;">MEZUE ASSOCIATES</strong>
+              <span style="font-size:11px; color:#15803D; font-weight:700; display:block; margin-bottom:4px;">ESTATE SURVEYORS &amp; VALUERS</span>
+              <p style="font-size:11px; color:#334155; margin:0;">Head Office: 9 Ogui Road, Enugu, Nigeria</p>
+            </div>
+          `).openPopup();
+        } else {
+          renderFallbackSvgMap(mapEl);
+        }
+      } catch (err) {
+        console.warn('Map online tile failed, displaying fallback SVG locator', err);
+        renderFallbackSvgMap(mapEl);
+      }
+
+      function renderFallbackSvgMap(container) {
+        container.innerHTML = `
+          <div style="width:100%; height:100%; background:#F0FDF4; border:1px solid #BBF7D0; border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#0F172A; padding:2rem; text-align:center;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2" style="margin-bottom:1rem;">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <h4 style="font-family:'Cinzel',serif; font-size:1.2rem; color:#0F172A; margin-bottom:0.5rem;">MEZUE ASSOCIATES &bull; HEADQUARTERS</h4>
+            <p style="font-size:0.95rem; color:#334155; margin-bottom:0.5rem;">9 Ogui Road, Enugu, Nigeria</p>
+            <span style="font-size:0.8rem; color:#15803D; font-weight:600;">Coordinates: 6.4413° N, 7.5029° E (Ogui Road Corridor)</span>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>

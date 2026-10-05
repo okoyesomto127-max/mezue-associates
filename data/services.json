@@ -1,0 +1,114 @@
+[
+  {
+    "id": "property-valuation",
+    "title": "Property Valuation",
+    "shortDescription": "Professional valuation services for different types of property and property interests across residential, commercial, industrial, and agricultural sectors.",
+    "fullDescription": "Mezue Associates delivers rigorous, statutory, and market-based valuation reports adhering strictly to recognized appraisal standards. Our valuation practice supports asset appraisal for financial reporting, loan security, insurance coverage, compulsory acquisition compensation, dispute settlement, and taxation.",
+    "deliverables": [
+      "Asset valuation for balance sheet and accounting purposes",
+      "Mortgage security appraisals for financial institutions",
+      "Compulsory acquisition, compensation and wayleave claims",
+      "Capital gains, probate, and rating assessments",
+      "Plant, machinery, and equipment valuation"
+    ],
+    "icon": "valuation"
+  },
+  {
+    "id": "property-management",
+    "title": "Property Management",
+    "shortDescription": "Management of properties with an emphasis on efficient administration, tenant relations, routine maintenance, and capital preservation.",
+    "fullDescription": "We oversee properties to optimize rental yields, maintain high occupancy levels, and preserve physical structural integrity. Our structured management framework provides transparent accounting, proactive lease renewals, and timely dispute resolution for individual and institutional owners.",
+    "deliverables": [
+      "Rent collection and disbursement with detailed reporting",
+      "Tenant screening, onboarding, and lease administration",
+      "Preventive and reactive maintenance supervision",
+      "Statutory compliance and property tax administration",
+      "Periodic physical inspection reports"
+    ],
+    "icon": "management"
+  },
+  {
+    "id": "estate-agency",
+    "title": "Estate Agency",
+    "shortDescription": "Professional assistance relating to property transactions, acquisitions, dispositions, sales, and commercial/residential lettings.",
+    "fullDescription": "Our agency division connects qualified buyers, investors, and prospective tenants with vetted properties across prime commercial corridors and residential hubs throughout Nigeria. Every transaction is guided by thorough title verification, market-rate negotiations, and transparent procedural integrity.",
+    "deliverables": [
+      "Commercial and residential sales representation",
+      "Corporate and individual lease brokering",
+      "Site acquisition for commercial and institutional developments",
+      "Tenant representation and negotiation advisory",
+      "Transaction documentation coordination"
+    ],
+    "icon": "agency"
+  },
+  {
+    "id": "feasibility-viability",
+    "title": "Feasibility & Viability Appraisal",
+    "shortDescription": "Assessment of the feasibility and economic viability of proposed property development and redevelopment initiatives.",
+    "fullDescription": "Before committing capital, developers and investors require clear, data-driven appraisals. Mezue Associates evaluates physical site characteristics, planning permissions, financial cash flow projections, sensitivity matrices, and return metrics to determine project viability.",
+    "deliverables": [
+      "Highest and best use analysis",
+      "Financial projection modeling (NPV, IRR, Payback)",
+      "Market demand and supply risk assessment",
+      "Development phasing and cost-benefit frameworks",
+      "Investor and syndicate bank presentation briefs"
+    ],
+    "icon": "feasibility"
+  },
+  {
+    "id": "facility-management",
+    "title": "Facility Management",
+    "shortDescription": "Professional management and coordination of built facilities, utility systems, and day-to-day property-related operations.",
+    "fullDescription": "We integrate physical workplace environments, plant machinery, security, and utility logistics to ensure seamless business continuity. Our facilities team implements service level agreements (SLAs), health and safety compliance, and energy-conscious operations.",
+    "deliverables": [
+      "Multi-tenant corporate facility coordination",
+      "HVAC, power generator, and MEP maintenance management",
+      "Health, Safety, and Environmental (HSE) protocol execution",
+      "Vendor procurement, vetting, and performance tracking",
+      "Service charge budgeting and audit reconciliation"
+    ],
+    "icon": "facility"
+  },
+  {
+    "id": "project-management",
+    "title": "Project Management",
+    "shortDescription": "Comprehensive property and real estate development project coordination from pre-construction to commissioning.",
+    "fullDescription": "We safeguard owner interests across all phases of construction and refurbishment. Working closely with architects, structural engineers, and contractors, our project managers enforce timeline schedules, budget controls, and quality standards.",
+    "deliverables": [
+      "Contractor procurement and contract administration",
+      "Schedule baseline tracking and milestone verification",
+      "Budget supervision and variation certificate auditing",
+      "Quality assurance and site coordination meetings",
+      "Handover, snagging clearance, and final commissioning"
+    ],
+    "icon": "project"
+  },
+  {
+    "id": "real-estate-consultancy",
+    "title": "Real Estate Consultancy",
+    "shortDescription": "Strategic professional advice relating to property assets, real estate investment, portfolio optimization, and market dynamics.",
+    "fullDescription": "Drawing on our founding in 1981 and decades of presence in the Nigerian market, our consultants provide strategic guidance for corporate balance sheets, institutional investors, estates, and private clients navigating changing market cycles.",
+    "deliverables": [
+      "Property portfolio restructuring and rationalization",
+      "Market trend research and location intelligence",
+      "Asset repurposing and adaptive reuse guidance",
+      "Mortgage and real-estate finance advisory",
+      "Corporate real estate strategy formulation"
+    ],
+    "icon": "consultancy"
+  },
+  {
+    "id": "property-rights-consultancy",
+    "title": "Property Rights Consultancy",
+    "shortDescription": "Professional consultancy relating to land tenure, title acquisition, right-of-way, easement, and property-right administration.",
+    "fullDescription": "Land and property rights in Nigeria entail complex statutory, customary, and regulatory considerations. Mezue Associates provides expert guidance on titling pathways, certificates of occupancy, easements, covenants, and resolving tenure encumbrances.",
+    "deliverables": [
+      "Land title regularization and documentation advisory",
+      "Wayleaves, easements, and right-of-way negotiation",
+      "Tenure due diligence and search coordination",
+      "Compulsory acquisition rights advisory",
+      "Boundary dispute technical estate advisory"
+    ],
+    "icon": "rights"
+  }
+]

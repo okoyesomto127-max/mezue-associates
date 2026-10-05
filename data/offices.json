@@ -1,0 +1,155 @@
+[
+  {
+    "id": "enugu-hq",
+    "city": "Enugu",
+    "state": "Enugu State",
+    "country": "Nigeria",
+    "isHeadquarters": true,
+    "address": "9 Ogui Road, Enugu, Nigeria",
+    "telephone": "[Verified contact available via Headquarters reception]",
+    "email": "info@mezueassociates.com.ng",
+    "manager": "Head Office Directorate",
+    "status": "Verified Head Office",
+    "coordinates": {
+      "lat": 6.4413,
+      "lng": 7.5029
+    },
+    "notes": "Firm Headquarters coordinating nationwide surveying, valuation, and consultancy practice."
+  },
+  {
+    "id": "onitsha-branch",
+    "city": "Onitsha",
+    "state": "Anambra State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "Okoye Ujunwa (Branch Manager)",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 6.1518,
+      "lng": 6.7863
+    },
+    "notes": "Dedicated commercial and property valuation hub serving Anambra State and the commercial hub of Onitsha."
+  },
+  {
+    "id": "lagos-branch",
+    "city": "Lagos",
+    "state": "Lagos State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 6.5244,
+      "lng": 3.3792
+    },
+    "notes": "Strategic commercial real estate, corporate valuation, and project advisory branch."
+  },
+  {
+    "id": "abuja-branch",
+    "city": "Abuja",
+    "state": "Federal Capital Territory",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 9.0765,
+      "lng": 7.3986
+    },
+    "notes": "Federal Capital Territory branch serving public sector, institutional, and commercial mandates."
+  },
+  {
+    "id": "port-harcourt-branch",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 4.8156,
+      "lng": 7.0498
+    },
+    "notes": "South-South regional branch managing industrial, commercial, and energy-corridor asset valuations."
+  },
+  {
+    "id": "aba-branch",
+    "city": "Aba",
+    "state": "Abia State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 5.1066,
+      "lng": 7.3667
+    },
+    "notes": "Commercial trading hub branch managing commercial properties, tenancy administration, and appraisals."
+  },
+  {
+    "id": "abakaliki-branch",
+    "city": "Abakaliki",
+    "state": "Ebonyi State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 6.3249,
+      "lng": 8.1137
+    },
+    "notes": "Ebonyi State branch coordinating agricultural land appraisals, residential properties, and municipal valuations."
+  },
+  {
+    "id": "maiduguri-branch",
+    "city": "Maiduguri",
+    "state": "Borno State",
+    "country": "Nigeria",
+    "isHeadquarters": false,
+    "address": "[Branch address to be updated upon verification]",
+    "telephone": "[Branch telephone to be updated upon verification]",
+    "email": "[Branch email to be updated upon verification]",
+    "manager": "[Branch Manager to be updated upon verification]",
+    "status": "Active Branch Office",
+    "coordinates": {
+      "lat": 11.8333,
+      "lng": 13.1500
+    },
+    "notes": "North-East regional branch serving institutional, development, and infrastructure surveying requirements."
+  },
+  {
+    "id": "international-liaison",
+    "city": "International Mandates",
+    "state": "Cross-Border Services",
+    "country": "United Kingdom & Diaspora Inquiries",
+    "isHeadquarters": false,
+    "address": "[Liaison desk and cross-border advisory coordinated via Enugu Headquarters]",
+    "telephone": "[Coordinated via Headquarters]",
+    "email": "international@mezueassociates.com.ng",
+    "manager": "Diaspora Real Estate Services Desk",
+    "status": "International Liaison",
+    "coordinates": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "notes": "Dedicated advisory desk assisting Nigerian diaspora investors with verified Nigerian property valuations, acquisitions, and management."
+  }
+]

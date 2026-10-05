@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Properties | Mezue Associates — Estate Surveyors &amp; Valuers</title>
+  <meta name="description" content="View property listing previews across residential, commercial and land categories across Nigeria. Managed by Mezue Associates, Estate Surveyors &amp; Valuers.">
+  <link rel="icon" type="image/jpeg" href="assets/brand/official-logo.jpg">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Top Strip -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__meta">
+        <span class="top-bar__badge">ESTABLISHED 1981</span>
+        <div class="top-bar__item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Head Office: 9 Ogui Road, Enugu, Nigeria</span>
+        </div>
+      </div>
+      <div class="top-bar__meta">
+        <div class="top-bar__item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span>Firm of Estate Surveyors &amp; Valuers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="mainNavbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand" aria-label="Mezue Associates Homepage">
+        <div class="brand-logo-frame">
+          <img src="assets/brand/official-logo.jpg" alt="Mezue Associates Official Logo" class="navbar__logo-img">
+        </div>
+        <div class="brand-text-lockup">
+          <span class="brand-name-title">MEZUE ASSOCIATES</span>
+          <span class="brand-designation-sub">ESTATE SURVEYORS &amp; VALUERS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="primaryNav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="properties.html" class="nav-link active">Properties</a>
+        <a href="offices.html" class="nav-link">Our Offices</a>
+        <a href="leadership.html" class="nav-link">Leadership</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="btn btn--primary btn--sm js-open-consultation">
+          Request a Consultation
+        </button>
+        <button class="nav-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="section section--mint" style="padding-top: 4.5rem; padding-bottom: 4.5rem;">
+    <div class="container">
+      <span class="eyebrow">Estate Agency &amp; Transaction Portfolio</span>
+      <h1 style="color: var(--color-text-main); margin-bottom: 1rem;">Properties</h1>
+      <p style="font-size: 1.15rem; color: var(--color-text-body); max-width: 760px; line-height: 1.8;">
+        Demonstration listings and architectural property profiles for commercial, residential, and development land assets across key Nigerian markets.
+      </p>
+    </div>
+  </section>
+
+  <!-- Properties Explorer -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Notice Banner -->
+      <div class="property-banner-notice">
+        <div class="property-banner-notice__text">
+          <strong>Property Listing Preview:</strong> This section contains demonstration property listings structured to illustrate data formatting, specification breakdown, and client inquiry pathways. Genuine company listings can be populated via <code>data/properties.json</code> without requiring code modifications.
+        </div>
+        <span class="property-banner-notice__tag">PREVIEW MODE</span>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="property-filters">
+        <button class="filter-btn filter-btn--active" data-filter="all">All Properties</button>
+        <button class="filter-btn" data-filter="sale">For Sale</button>
+        <button class="filter-btn" data-filter="rent">For Rent</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="land">Land</button>
+      </div>
+
+      <!-- Properties Grid -->
+      <div class="properties-grid" id="propertiesGrid">
+        <!-- Rendered dynamically by js/properties.js -->
+      </div>
+
+      <!-- Advisory Box -->
+      <div style="margin-top: 4.5rem; background: var(--color-bg-mint); border: 1px solid var(--color-border-mint); border-radius: var(--radius-md); padding: 3rem; text-align: center;">
+        <span class="eyebrow eyebrow--center">Property Acquisition &amp; Disposal Advisory</span>
+        <h3 style="font-size: 1.45rem; color: var(--color-text-main); margin-bottom: 0.75rem;">Looking to Acquire, Sell, or Value a Property?</h3>
+        <p style="max-width: 680px; margin: 0 auto 1.75rem; color: var(--color-text-body); line-height: 1.75;">
+          As registered Estate Surveyors &amp; Valuers, Mezue Associates conducts thorough title investigation, physical condition inspections, and realistic market valuation before concluding any transaction.
+        </p>
+        <button class="btn btn--primary js-open-consultation" data-service="Estate Agency">
+          Consult With Our Estate Agency Desk
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand__frame">
+            <img src="assets/brand/official-logo.jpg" alt="Mezue Associates Official Logo" class="footer-brand__logo">
+          </div>
+          <p class="footer-brand__tagline">
+            Firm of Estate Surveyors &amp; Valuers providing professional property valuation, management, agency, and feasibility consultancy across Nigeria since 1981.
+          </p>
+          <p style="font-size:0.82rem; color:var(--color-primary-dark); font-weight:700;">ESTABLISHED 1981 &bull; PRACTICE EXCELLENCE</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="offices.html">Our Offices</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#property-valuation">Valuation</a></li>
+            <li><a href="services.html#property-management">Property Management</a></li>
+            <li><a href="services.html#estate-agency">Estate Agency</a></li>
+            <li><a href="services.html#facility-management">Facility Management</a></li>
+            <li><a href="services.html#project-management">Project Management</a></li>
+            <li><a href="services.html#real-estate-consultancy">Consultancy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Head Office</h4>
+          <p class="footer-office-address">
+            <strong>Mezue Associates</strong><br>
+            9 Ogui Road, Enugu,<br>
+            Enugu State, Nigeria
+          </p>
+          <button class="btn btn--outline-green btn--sm js-open-consultation">
+            Book Consultation
+          </button>
+        </div>
+      </div>
+
+      <!-- Regulatory Notice Box -->
+      <div class="footer-regulatory-box">
+        <p class="footer-regulatory-text">
+          <strong>Regulatory Notice:</strong> Mezue Associates is registered for the practice of Estate Surveying and Valuation across Nigeria by the Estate Surveyors &amp; Valuers Registration Board of Nigeria (established by Act No. 24 of 1975, Cap E13 LFN, 2007). Originally registered under the Registration of Business Names Act in 1981.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mezue Associates. All Rights Reserved.</p>
+        <p style="color: var(--color-text-muted); font-size: 0.86rem;">
+          Estate Surveyors &amp; Valuers &bull; Founded 1981 &bull; 9 Ogui Road, Enugu, Nigeria
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reusable Consultation Modal -->
+  <div class="modal-backdrop" id="consultationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span style="font-size:0.75rem; color:var(--color-primary-dark); text-transform:uppercase; letter-spacing:0.1em; font-weight:700;">Mezue Associates Practice Desk</span>
+          <h3 id="modalTitle">Request a Professional Consultation</h3>
+        </div>
+        <button class="modal-close" aria-label="Close modal dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="alert-feedback alert-feedback--success"></div>
+
+        <form class="js-validate-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="modalName">Full Name *</label>
+              <input type="text" id="modalName" name="fullName" class="form-control" placeholder="Full name" required>
+              <span class="form-error">Please enter your full name.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalEmail">Email Address *</label>
+              <input type="email" id="modalEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+              <span class="form-error">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalPhone">Phone Number *</label>
+              <input type="tel" id="modalPhone" name="phone" class="form-control" placeholder="Phone number" required>
+              <span class="form-error">Please enter a valid telephone number.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalService">Service Required *</label>
+              <select id="modalService" name="service" class="form-control" required>
+                <option value="">Select Service...</option>
+                <option value="Property Valuation">Property Valuation</option>
+                <option value="Property Management">Property Management</option>
+                <option value="Estate Agency" selected>Estate Agency</option>
+                <option value="Facility Management">Facility Management</option>
+                <option value="Project Management">Project Management</option>
+                <option value="Feasibility & Viability Appraisal">Feasibility &amp; Viability Appraisal</option>
+                <option value="Real Estate Consultancy">Real Estate Consultancy</option>
+                <option value="Property Rights Consultancy">Property Rights Consultancy</option>
+                <option value="Other">Other</option>
+              </select>
+              <span class="form-error">Please select a service area.</span>
+            </div>
+
+            <div class="form-group form-group--full">
+              <label class="form-label" for="modalLocation">Property / Project Location *</label>
+              <input type="text" id="modalLocation" name="location" class="form-control" placeholder="e.g. Enugu, Onitsha, Abuja, Lagos, etc." required>
+              <span class="form-error">Please specify location.</span>
+            </div>
+
+            <div class="form-group form-group--full">
+              <label class="form-label" for="modalMessage">Scope &amp; Message *</label>
+              <textarea id="modalMessage" name="message" class="form-control" rows="4" placeholder="Briefly describe your requirements..." required></textarea>
+              <span class="form-error">Please provide a brief description (min 6 characters).</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end; gap: 1rem;">
+            <button type="button" class="btn btn--outline-green btn--sm js-modal-close">Cancel</button>
+            <button type="submit" class="btn btn--primary btn--sm">Send Enquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/properties.js"></script>
+</body>
+</html>

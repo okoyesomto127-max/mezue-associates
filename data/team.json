@@ -1,0 +1,44 @@
+[
+  {
+    "id": "chief-lc-mezue",
+    "name": "Chief L. C. Mezue",
+    "role": "Principal Consultant / CEO",
+    "credentials": "FNIVS, RSV",
+    "branch": "Headquarters (Enugu)",
+    "qualifications": "FNIVS, RSV — Fellow, Nigerian Institution of Estate Surveyors & Valuers; Registered Estate Surveyor & Valuer",
+    "bio": "Principal Consultant and Chief Executive Officer of Mezue Associates. Directs the strategic practice, institutional governance, and major consultancy assignments of the firm across Nigeria.",
+    "phone": "+234 (0) 42 255 120 / +234 803 324 1981",
+    "email": "enugu@mezueassociates.com",
+    "hasVerifiedPhoto": false,
+    "photoPlaceholderText": "LCM",
+    "isExecutive": true
+  },
+  {
+    "id": "mr-ike-agwubike",
+    "name": "Mr. Ike Agwubike",
+    "role": "Managing Consultant",
+    "credentials": "ANIVS, RSV",
+    "branch": "Practice Management (Enugu / National)",
+    "qualifications": "ANIVS, RSV — Associate, Nigerian Institution of Estate Surveyors & Valuers; Registered Estate Surveyor & Valuer",
+    "bio": "Managing Consultant at Mezue Associates. Oversees professional practice execution, statutory valuation compliance, inter-branch operations, and institutional client service delivery.",
+    "phone": "+234 (0) 42 255 120",
+    "email": "info@mezueassociates.com",
+    "hasVerifiedPhoto": false,
+    "photoPlaceholderText": "IA",
+    "isExecutive": true
+  },
+  {
+    "id": "okoye-ujunwa",
+    "name": "Okoye Ujunwa",
+    "role": "Branch Manager — Onitsha Branch",
+    "credentials": "Branch Manager",
+    "branch": "Onitsha Branch (Anambra State)",
+    "qualifications": "Estate Surveyor & Branch Administrator",
+    "bio": "Branch Manager overseeing professional operations, property valuations, management mandates, and agency services at the Onitsha Branch of Mezue Associates.",
+    "phone": "+234 803 400 1981",
+    "email": "onitsha@mezueassociates.com",
+    "hasVerifiedPhoto": false,
+    "photoPlaceholderText": "OU",
+    "isExecutive": false
+  }
+]

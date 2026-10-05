@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f4c33"/>
+      <stop offset="100%" stop-color="#0c2217"/>
+    </linearGradient>
+    <linearGradient id="accentF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bce0cb"/>
+      <stop offset="100%" stop-color="#528c68"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bgF)" rx="100"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#accentF)" stroke-width="2" stroke-dasharray="6,4"/>
+  
+  <g fill="none" stroke="url(#accentF)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="74" r="30" stroke-width="2.5" fill="#153624"/>
+    <path d="M72 75 C70 54, 84 44, 100 44 C116 44, 130 54, 128 75 C124 96, 126 112, 126 112" stroke-width="2"/>
+    <path d="M90 108 L100 132 L110 108" stroke-width="2"/>
+    <path d="M52 168 C58 138, 78 122, 90 114" stroke-width="2.5"/>
+    <path d="M148 168 C142 138, 122 122, 110 114" stroke-width="2.5"/>
+    <path d="M52 168 L148 168" stroke-width="2.5"/>
+  </g>
+  
+  <rect x="42" y="172" width="116" height="18" rx="9" fill="#081810" stroke="url(#accentF)" stroke-width="1"/>
+  <text x="100" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">MEZUE ASSOCIATES</text>
+</svg>
